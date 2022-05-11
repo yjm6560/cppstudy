@@ -95,11 +95,11 @@ ABEntry::ABEntry(): theName(),
 
 #### default constructor 호출 낭비 방지
 
-클래스의 생성자는 멤버 변수를 초기화하는 default constructor 호출한 다음, 생성자 body 를 수행한다.
+클래스의 생성자는 멤버 변수들의 default constructor 호출한 다음, 생성자 body 의 assignment statement 들을 수행한다.
 
 **Assignment-based 방법은 이 default constructor 호출하는 부분이 낭비된다.**
 
-Assignment-based 방법은 assignment를... 멤버 초기화 리스트는 복사 생성자를 사용하여 멤버 변수를 초기화한다.
+Assignment-based 방법은 assignment 를... 멤버 초기화 리스트는 복사 생성자를 사용하여 멤버 변수를 초기화한다.
 
 #### 모든 멤버 변수를 멤버 초기화 리스트를 사용해 초기화해주자
 
