@@ -1,4 +1,4 @@
-# Item 10: 할당 연산자에서 *this를 반환하게 해라
+# Item 10: assignment operator에서 *this를 반환하게 해라
 
 ## Assignment operator의 return 값
 
